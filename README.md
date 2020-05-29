@@ -8,7 +8,7 @@ git log
 
 # Update subtree
 ```
-git subtree add --prefix lib/OpenBLAS https://github.com/xianyi/OpenBLAS master --squash
+git subtree pull --prefix lib/OpenBLAS https://github.com/xianyi/OpenBLAS master --squash
 ```
 
 # Pushing to a subtree
